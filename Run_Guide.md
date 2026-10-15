@@ -11,7 +11,7 @@ You will need:
 - PostgreSQL
 - pgAdmin 4
 - UCI Online Retail Dataset
-- The `customer_segmentation.sql` file from this repository
+- The `Customer_Segmentation.sql` file from this repository
 
 **Dataset Source:** [UCI Machine Learning Repository – Online Retail](https://archive.ics.uci.edu/dataset/352/online+retail)
 
@@ -29,7 +29,7 @@ Open the Query Tool for the newly created database.
 
 ## 3. Create the Raw Data Table
 
-Open `customer_segmentation.sql`.
+Open `Customer_Segmentation.sql`.
 
 Execute only **Section 1 — Creating a Table**:
 
@@ -104,7 +104,7 @@ If it is incorrect, fix the imported date interpretation before continuing.
 
 ## 6. Execute the SQL Analysis
 
-Open `customer_segmentation.sql` in the pgAdmin Query Tool.
+Open `Customer_Segmentation.sql` in the pgAdmin Query Tool.
 
 After completing the table creation and CSV import, execute the remaining SQL sections in order.
 
@@ -182,9 +182,9 @@ To save results from pgAdmin:
 
 Suggested filenames:
 
-- `segment_distribution.csv`
+- `customer_segment_performance.csv`
 - `rfm_segment_behavior.csv`
-- `at_risk_customers.csv`
+- `high_value_at_risk_customers.csv`
 
 Exported results should match the final database analysis.
 
